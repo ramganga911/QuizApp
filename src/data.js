@@ -1,0 +1,73 @@
+export const data = [
+  {
+    Question: "What is Redux?",
+    Option1: "It is State Management",
+    Option2: "It is State",
+    Option3: "It is part of HTML",
+    Option4: "None",
+  },
+  {
+    Question: "What is React?",
+    Option1: "It is a JavaScript library for building UI",
+    Option2: "It is a backend framework",
+    Option3: "It is a programming language",
+    Option4: "None",
+  },
+  {
+    Question: "What is JSX in React?",
+    Option1: "A syntax extension for JavaScript",
+    Option2: "A new programming language",
+    Option3: "A database query language",
+    Option4: "None",
+  },
+  {
+    Question: "What is the role of Redux in a React application?",
+    Option1: "It manages global state efficiently",
+    Option2: "It is used for styling components",
+    Option3: "It replaces JavaScript functions",
+    Option4: "None",
+  },
+  {
+    Question: "What is the Virtual DOM in React?",
+    Option1: "A lightweight copy of the actual DOM",
+    Option2: "A database for React components",
+    Option3: "A new programming language",
+    Option4: "None",
+  },
+  {
+    Question: "Which command is used to create a new React app?",
+    Option1: "npx create-react-app my-app",
+    Option2: "npm install react",
+    Option3: "react new my-app",
+    Option4: "None",
+  },
+  {
+    Question: "What is the purpose of the useState hook in React?",
+    Option1: "To manage component-level state",
+    Option2: "To fetch data from APIs",
+    Option3: "To apply CSS styles",
+    Option4: "None",
+  },
+  {
+    Question: "What is a reducer function in Redux?",
+    Option1: "A pure function that updates state based on an action",
+    Option2: "A function that fetches API data",
+    Option3: "A React component",
+    Option4: "None",
+  },
+  {
+    Question:
+      "Which lifecycle method is used to fetch data in class components?",
+    Option1: "componentDidMount",
+    Option2: "componentWillUnmount",
+    Option3: "render",
+    Option4: "None",
+  },
+  {
+    Question: "What is the purpose of React Router?",
+    Option1: "To handle navigation between different pages",
+    Option2: "To manage state in React",
+    Option3: "To apply animations",
+    Option4: "None",
+  },
+];

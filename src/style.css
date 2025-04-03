@@ -1,0 +1,148 @@
+/* General Styling */
+body {
+    background-color: #B692C2;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Score Page */
+.scorePage {
+    text-align: center;
+    background-color: #E3A5C7;
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 15px;
+    margin: 100px auto;
+    width: 50%;
+    max-width: 500px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Quiz Container */
+.quizapp {
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #E3A5C7;
+    width: 70%;
+    max-width: 600px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Question Styling */
+.quizapp h3 {
+    color: #4A235A;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Options List */
+.quizapp ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.quizapp ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #694F8E;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #ece7e6;
+    font-size: 18px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+    max-width: 500px;
+}
+
+.quizapp ul li:hover {
+    background-color: #d2b4de;
+    transform: scale(1.05);
+}
+
+.quizapp ul li.selected {
+    background-color: #694F8E;
+    color: white;
+}
+
+/* Button Styling */
+.quizapp button {
+    padding: 12px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    background-color: #E49BFF;
+    color: black;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.quizapp button:hover {
+    background-color: aliceblue;
+    border: 2px solid plum;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .quizapp {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .scorePage {
+        width: 80%;
+        padding: 30px;
+    }
+
+    .quizapp ul li {
+        font-size: 16px;
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    .quizapp button {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .quizapp {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .scorePage {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .quizapp h3 {
+        font-size: 18px;
+    }
+
+    .quizapp ul li {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .quizapp button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
